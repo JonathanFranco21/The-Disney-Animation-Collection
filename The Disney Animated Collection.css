@@ -1,0 +1,243 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/250145.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding-bottom: 32px;
+}
+
+b {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0;
+}
+
+p {
+  font-family: arial;
+  font-size: large;
+  color: white;
+  text-align: justify;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.timer_message {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 0 32px auto;
+}
+
+#timer1, #timer2 {
+  font-family: arial;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0px 2px 5px blue;
+  margin: 16px 64px auto;
+  margin-bottom: 64px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.review-schedule {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: blue;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.release-schedule, .back {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: blue;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+.back {
+  margin-top: 32px;
+}
+
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  margin: 32px 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: 135px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px blue;
+}
+
+.caption {
+  display: block;
+  font-family: arial;
+  font-size: large;
+  color: white;
+  margin-top: 16px;
+  text-shadow: 0px 2px 5px blue;
+}
+
+.item.spider-man-ffh {
+  width: 100%;
+}
+
+.item.werewolf-by-night, .item.black-panther-wf, .item.tgotghs {
+  width: 100%;
+}
+
+.back {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: blue;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.item {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .item.amatwq, .item.armor-wars {
+    width: 100%;
+  }
+
+  .item.black-panther-wf {
+    width: 49%;
+  }
+
+  .item.werewolf-by-night, .item.tgotghs, .item.dablueevil-ba {
+    width: 50%;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 350px;
+    height: 185px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  b {
+    font-size: 40pt;
+  }
+
+  h2 {
+    font-size: 40pt;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.item {
+    width: 49%;
+  }
+
+  img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item.avengers-endgame {
+    margin: 32px 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .item.spider-man-ffh, .item.she-hulk-aal, .item.werewolf-by-night, .item.black-panther-wf,.item.tgotghs, .item.blade, .item.dablueevil-ba, .item.avengers-sw, .item.armor-wars {
+    width: 33%;
+  }
+
+  .item.avengers-sw {
+    width: 100%;
+  }
+
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  div.item {
+    width: 33%;
+  }
+
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
