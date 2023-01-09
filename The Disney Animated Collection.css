@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wallpaperaccess.com/full/250145.jpg");
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/61C377B14F25252D8A112D23A89A78516435DCF60F1C151854DE3D91C755A11A");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -125,11 +125,7 @@ img {
   text-shadow: 0px 2px 5px blue;
 }
 
-.item.spider-man-ffh {
-  width: 100%;
-}
-
-.item.werewolf-by-night, .item.black-panther-wf, .item.tgotghs {
+.item.strange-world, .item.wish {
   width: 100%;
 }
 
@@ -159,15 +155,11 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .item.amatwq, .item.armor-wars {
-    width: 100%;
-  }
-
-  .item.black-panther-wf {
+  .item.wish {
     width: 49%;
   }
 
-  .item.werewolf-by-night, .item.tgotghs, .item.dablueevil-ba {
+  .item.strange-world {
     width: 50%;
   }
 
@@ -206,21 +198,6 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .item.avengers-endgame {
-    margin: 32px 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 55%;
-  }
-  
-  .item.spider-man-ffh, .item.she-hulk-aal, .item.werewolf-by-night, .item.black-panther-wf,.item.tgotghs, .item.blade, .item.dablueevil-ba, .item.avengers-sw, .item.armor-wars {
-    width: 33%;
-  }
-
-  .item.avengers-sw {
-    width: 100%;
-  }
-
   div.item {
     width: 33%;
   }
