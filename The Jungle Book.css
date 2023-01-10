@@ -1,25 +1,16 @@
-html {
-  margin: 0;
-}
-
 body {
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D01677AF82A51511641895BDF91AD30B53DB8CAA59480F6CB227CAE28AA82406');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-}
-
-.random_bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px green;
 }
 
 .disney {
@@ -39,8 +30,8 @@ b {
 .jungle {
   font-family: arial;
   font-size: xx-large;
-  background-color: purple;
-  box-shadow: 0px 2px 5px purple;
+  background-color: green;
+  box-shadow: 0px 2px 5px green;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -65,12 +56,12 @@ a:visited {
 p {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px green;
 }
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px purple;
+  box-shadow: 0px 10px 15px green;
   height: 250px;
   width: 450px;
 }
@@ -79,20 +70,20 @@ h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px green;
   margin: 0 20px auto;
 }
 
 li {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px green;
 }
 
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px purple;
+  text-shadow: 0px 2px 5px green;
   text-align: center
 }
 
@@ -110,14 +101,14 @@ li {
   position: relative;
   bottom: -3px;
   width: 20px;
-  box-shadow: 0px 2px 5px purple;
+  box-shadow: 0px 2px 5px green;
 }
 
 .pg-rating {
   position: relative;
   bottom: -3px;
   width: 30px;
-  box-shadow: 0px 2px 5px purple;
+  box-shadow: 0px 2px 5px green;
 }
 
 @media screen and (min-width: 800px) {
