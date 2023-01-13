@@ -1,28 +1,29 @@
+html {
+  margin: 0;
+}
+
 body {
-  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/914B2AA9C6F4BB537F9A51103F23C28810E93E70AE61FE7E7AB7AF03ED694640');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
 }
 
+.random_bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px brown;
-}
-
-.disney {
-  position: relative;
-  top: -10px;
-  width: 200px;
-  margin: 0 auto;
+  text-shadow: 0px 2px 5px green;
 }
 
 .tarzan-logo {
   position: relative;
-  top: -50px;
   height: 200px;
   width: 350px;
 }
@@ -30,8 +31,8 @@ b {
 .tarzan {
   font-family: arial;
   font-size: xx-large;
-  background-color: brown;
-  box-shadow: 0px 2px 5px brown;
+  background-color: green;
+  box-shadow: 0px 2px 5px green;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -56,35 +57,49 @@ a:visited {
 p {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px brown;
+  text-shadow: 0px 2px 5px green;
 }
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px brown;
-  height: 250px;
-  width: 450px;
+  box-shadow: 0px 10px 15px green;
+  height: 200px;
+  width: 360px;
 }
 
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px brown;
+  text-shadow: 0px 2px 5px green;
   margin: 0 20px auto;
 }
 
-li {
+h3 {
   font-family: arial;
+  font-size: 20pt;
   color: white;
-  text-shadow: 0px 2px 5px brown;
+  text-align: center;
+  text-shadow: 0px 2px 5px green;
+  margin: 0 20px auto;
 }
 
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px brown;
+  text-shadow: 0px 2px 5px green;
   text-align: center
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
 }
 
 .disneyplus {
@@ -93,31 +108,60 @@ li {
   bottom: -22px
 }
 
-.custom-rating {
-  margin-left: 15px;
-}
-
 .g-rating {
   position: relative;
-  bottom: -3px;
-  width: 20px;
-  box-shadow: 0px 2px 5px brown;
+  left: 45px;
+  width: 225px;
 }
 
 .pg-rating {
   position: relative;
-  bottom: -3px;
-  width: 30px;
-  box-shadow: 0px 2px 5px brown;
+  bottom: 55px;
+  right: 7px;
+  width: 250px; 
+  height: 250px; 
+  filter: invert(1); 
+  object-fit: cover;
 }
 
-@media screen and (min-width: 800px) {
-  .disney {
-    position: relative;
-    top: -15px;
+@media screen and (min-width: 300px) {
+  .tarzan-logo {
+    height: 175px;
     width: 300px;
   }
 
+  .pg-rating {
+    width: 250px;
+    left: 20px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) {
   iframe {
     height: 420px;
     width: 750px;
@@ -125,15 +169,7 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
-  .disney {
-    position: relative;
-    top: -25px;
-    width: 400px;
-  }
-
   .tarzan-logo {
-    position: relative;
-    top: -80px;
     height: 300px;
     width: 500px;
   }
@@ -145,15 +181,7 @@ li {
 }
 
 @media screen and (min-width: 1200px) {
-  .disney {
-    position: relative;
-    top: -40px;
-    width: 500px;
-    margin: 0 auto;
-  }
-
   .tarzan-logo {
     position: relative;
-    top: -80px;
   }
 }
