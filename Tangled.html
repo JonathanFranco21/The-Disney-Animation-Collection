@@ -14,11 +14,6 @@
   <body>
     <div class="random_bg">
       <center>
-        <img class="disney" 
-        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FFA0BEBAC1406D88929497501C84019EBBA1B018D3F7C4C3C829F1810A24AD6E">
-      </center>
-
-      <center>
         <img class="tangled-logo"
         src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F01FA3C820ED95B7453895D35BC439FBA98996AF8F5C4CD4400C2B9B61CA23D" />
       </center>
@@ -60,19 +55,29 @@
       <br />
       <br />
     
-      <h2>S
-        RATINGS
-      </h2>
-    
-      <ul>
-        <li>Rating given by the MPA:</li>
-        <li class="custom-rating"><img class="pg-rating" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/617B8E26BE83893584472159F50AA8D4C7DDD89FA14EFDCD4FE0BCD246880EF5">: For Brief Violence</li>
-        <li>Rating I reccomend:</li>
-        <li class="custom-rating"><img class="pg-rating" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/617B8E26BE83893584472159F50AA8D4C7DDD89FA14EFDCD4FE0BCD246880EF5">: For Sequences of Violence, SomeA Rude Humor, Some Scary Imagery, and Mild Blood</li>
-      </ul>
-    
+      <center>
+        <h2>
+          RATINGS
+        </h2>
+      </center>
+
       <br />
       <br />
+      
+      <div class="rating-areas">
+        <div class="original-rating-area">
+          <h3>
+            Rating given by MPA:
+          </h3>
+          <img class="pg-rating" src="Ratings/Tangled Original Rating.png">
+        </div>
+        <div class="proposed-rating-area">
+          <h3>
+            Rating I recommend:
+          </h3>
+          <img class="pg-rating" src="Ratings/Tangled Proposed Rating.png">
+        </div>
+      </div>
 
       <center>
         <h2>
@@ -103,15 +108,14 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript">
-	
-function pic() {
-	var bgm= ['https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/48CED9B30E0BEAABEECAA5D082C717EA935DFB56A76DEEA65788A8A9D6EB7A1F','https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DEE02D6A8F2EF5C8AA82772DD00B0D37E42566850D36F156A9AB54EAFDCBC537','https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F29179528B523B9EC87ADDD22693EDAF0C60320FD7C3566707536FA79DDC43D0', 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A826B63B6690D7A01D4BEA32B33CC099B2D2E79ED64F8A6F7A0257BB2395D5F4'];
-$('.random_bg').css({
-	'background':'url('+bgm[Math.floor(Math.random()* bgm.length)]+') no-repeat',
-	'background-size':'cover', 
-  'background-repeat':'no-repeat',
-  'background-attachment':'fixed',
-});
-}
-pic();
+  function pic() {
+    var bgm= ['https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/48CED9B30E0BEAABEECAA5D082C717EA935DFB56A76DEEA65788A8A9D6EB7A1F','https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DEE02D6A8F2EF5C8AA82772DD00B0D37E42566850D36F156A9AB54EAFDCBC537','https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F29179528B523B9EC87ADDD22693EDAF0C60320FD7C3566707536FA79DDC43D0', 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A826B63B6690D7A01D4BEA32B33CC099B2D2E79ED64F8A6F7A0257BB2395D5F4'];
+    $('.random_bg').css({
+      'background':'url('+bgm[Math.floor(Math.random()* bgm.length)]+') no-repeat',
+      'background-size':'cover', 
+      'background-repeat':'no-repeat',
+      'background-attachment':'fixed',
+    });
+  }
+  pic();
 </script>   

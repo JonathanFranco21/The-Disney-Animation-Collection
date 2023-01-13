@@ -22,16 +22,8 @@ b {
   text-shadow: 0px 2px 5px #C488CC;
 }
 
-.disney {
-  position: relative;
-  top: -10px;
-  width: 200px;
-  margin: 0 auto;
-}
-
 .tangled-logo {
   position: relative;
-  top: -50px;
   height: 200px;
   width: 350px;
 }
@@ -71,8 +63,8 @@ p {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px #C488CC;
-  height: 250px;
-  width: 450px;
+  height: 200px;
+  width: 360px;
 }
 
 h2 {
@@ -83,10 +75,13 @@ h2 {
   margin: 0 20px auto;
 }
 
-li {
+h3 {
   font-family: arial;
+  font-size: 20pt;
   color: white;
+  text-align: center;
   text-shadow: 0px 2px 5px #C488CC;
+  margin: 0 20px auto;
 }
 
 .overview {
@@ -102,37 +97,71 @@ li {
   bottom: -22px
 }
 
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
 .disneyplus {
   width: 150px;
   position: relative;
   bottom: -22px
 }
 
-.custom-rating {
-  margin-left: 15px;
-}
-
-.g-rating {
-  position: relative;
-  bottom: -3px;
-  width: 20px;
-  box-shadow: 0px 2px 5px #C488CC;
-}
-
 .pg-rating {
   position: relative;
-  bottom: -3px;
-  width: 30px;
-  box-shadow: 0px 2px 5px #C488CC;
+  bottom: 55px;
+  right: 7px;
+  width: 250px; 
+  height: 250px; 
+  filter: invert(1); 
+  object-fit: cover;
 }
 
-@media screen and (min-width: 800px) {
-  .disney {
-    position: relative;
-    top: -15px;
+@media screen and (min-width: 300px) {
+  .tarzan-logo {
+    height: 175px;
     width: 300px;
   }
 
+  .pg-rating {
+    width: 250px;
+    left: 20px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) {
   iframe {
     height: 420px;
     width: 750px;
@@ -140,15 +169,7 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
-  .disney {
-    position: relative;
-    top: -25px;
-    width: 400px;
-  }
-
-  .the-little-mermaid-logo {
-    position: relative;
-    top: -80px;
+  .tangled-logo {
     height: 300px;
     width: 500px;
   }
@@ -156,19 +177,5 @@ li {
   iframe {
     height: 500px;
     width: 900px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .disney {
-    position: relative;
-    top: -40px;
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  .the-little-mermaid-logo {
-    position: relative;
-    top: -80px;
   }
 }
