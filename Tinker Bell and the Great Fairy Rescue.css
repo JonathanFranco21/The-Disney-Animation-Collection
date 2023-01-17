@@ -22,13 +22,13 @@ b {
   text-shadow: 0px 2px 5px green;
 }
 
-.the-jungle-book-logo {
+.tinker-bell-and-the-great-fairy-rescue-logo {
   position: relative;
   height: 200px;
   width: 350px;
 }
 
-.jungle {
+.tinker-bell {
   font-family: arial;
   font-size: xx-large;
   background-color: green;
@@ -63,8 +63,8 @@ p {
 iframe {
   border-radius: 25px;
   box-shadow: 0px 10px 15px green;
-  height: 250px;
-  width: 450px;
+  height: 200px;
+  width: 360px;
 }
 
 h2 {
@@ -89,6 +89,15 @@ h3 {
   margin-right: 25%;
   text-shadow: 0px 2px 5px green;
   text-align: center
+}
+
+a.reference:link {
+  text-decoration: underline;
+  color: white;
+}
+
+a.reference:visited {
+  color: white;
 }
 
 .rating-areas {
@@ -125,7 +134,7 @@ h3 {
 }
 
 @media screen and (min-width: 300px) {
-  .the-jungle-book-logo {
+  .tinker-bell-and-the-great-fairy-rescue-logo {
     height: 175px;
     width: 300px;
   }
@@ -161,7 +170,6 @@ h3 {
   }
 }
 
-
 @media screen and (min-width: 800px) {
   iframe {
     height: 420px;
@@ -170,8 +178,7 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-  .the-jungle-book-logo {
-    position: relative;
+  .tinker-bell-and-the-great-fairy-rescue-logo {
     height: 300px;
     width: 500px;
   }

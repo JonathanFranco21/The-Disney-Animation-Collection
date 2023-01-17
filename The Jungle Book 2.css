@@ -22,7 +22,7 @@ b {
   text-shadow: 0px 2px 5px green;
 }
 
-.the-jungle-book-logo {
+.the-jungle-book-2-logo {
   position: relative;
   height: 200px;
   width: 350px;
@@ -67,6 +67,10 @@ iframe {
   width: 450px;
 }
 
+body.date-20230113.en_US.ltr.site-center-aligned.site-as-giant-card.webkit.webkit-537.player.html5-video-player.ytp-exp-bottom-control-flexbox.ytp-title-enable-channel-logo.ytp-embed.ytp-embed-playlist.unstarted-mode.ytp-hide-controls.ytp-large-width-mode.ytp-cued-thumbnail-overlay.ytp-cued-thumbnail-overlay-image {
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0EB61E7F0BB3E3B1110E65D37A21D7C985FA1EEB774750AD5C839FE7442EC2FE');
+}
+
 h2 {
   font-family: arial;
   font-size: 25pt;
@@ -89,6 +93,15 @@ h3 {
   margin-right: 25%;
   text-shadow: 0px 2px 5px green;
   text-align: center
+}
+
+a.reference:link {
+  text-decoration: underline;
+  color: white;
+}
+
+a.reference:visited {
+  color: white;
 }
 
 .rating-areas {
@@ -125,7 +138,7 @@ h3 {
 }
 
 @media screen and (min-width: 300px) {
-  .the-jungle-book-logo {
+  .the-jungle-book-2-logo {
     height: 175px;
     width: 300px;
   }
@@ -170,7 +183,7 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-  .the-jungle-book-logo {
+  .the-jungle-book-2-logo {
     position: relative;
     height: 300px;
     width: 500px;
