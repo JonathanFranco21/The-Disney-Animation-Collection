@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="Tangled The Series Choose Season Menu.css" type="text/css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      Tangled: The Series (Rapunzel's Tangled Adventure) Season Menu
+    </title>
+  </head>
+  <body>
+    <div class="random_bg">
+      <center>
+      <img class="tangled-logo"
+        src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D25D9053755103D8CE1A5824E3896D0D2E2D6B0537E560E3C34D8313B90756EA"
+      </center>
+  
+      <br />
+      <br />
+  
+      <center>
+        <h2>
+          CHOOSE SEASON
+        </h2>
+      </center>
+      
+      <br />
+      <br />
+  
+      <center>
+        <button class="tangled-season">
+          <a href="Tangled The Series Season 1 Episode Menu.css">
+              SEASON 1
+          </a>
+        </button>
+      </center>
+  
+      <center>
+        <button class="tangled-season">
+          <a href="Tangled The Series Season 2 Episode Menu.html">
+              SEASON 2
+          </a>
+        </button>
+      </center>
+  
+      <center>
+        <button class="tangled-season">
+          <a href="Tangled The Series Season 3 Episode Menu.html">
+              SEASON 3
+          </a>
+        </button>
+      </center>
+  
+      <center>
+        <h2>
+          NOW STREAMING ON <a href="https://www.disneyplus.com/series/rapunzels-tangled-adventure/4etYBRkkytfd"><img class="disneyplus" src="https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg"></a>
+        </h2>
+      </center>
+  
+      <button class="tangled">
+        <a href="The Disney Animated Collection.html">
+          Back
+        </a>
+      </button>
+  
+    </div>
+  </body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  function pic() {
+    var bgm= ['https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FDF0428C513E93DC335D04B3A1C5DAEDC5675215698ACB83A7819C9544EDDA4/scale?width=2880&aspectRatio=1.78&format=jpeg', 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A826B63B6690D7A01D4BEA32B33CC099B2D2E79ED64F8A6F7A0257BB2395D5F4'];
+    $('.random_bg').css({
+      'background':'url('+bgm[Math.floor(Math.random()* bgm.length)]+') no-repeat',
+      'background-size':'cover', 
+      'background-repeat':'no-repeat',
+      'background-attachment':'fixed',
+    });
+  }
+  pic();
+</script>   
