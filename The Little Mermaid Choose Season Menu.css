@@ -1,0 +1,116 @@
+body {
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF59C8FDF2AB49D4341688AEAF85F6E66204BFB7293F246D6AE1754633D8782F');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0; 
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px #1F9A5B;
+}
+
+.the-little-mermaid-logo {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  box-shadow: none;
+  border-radius: 0px;
+  margin: 20px 0 20px 0;
+}
+
+.the-little-mermaid {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: #1F9A5B;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 20px auto;
+  margin-bottom: 32px;
+}
+
+.the-little-mermaid-season {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: #1F9A5B;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px #1F9A5B;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px #1F9A5B;
+}
+
+.disneyplus {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  bottom: -25px;
+  box-shadow: none;
+}
+
+@media screen and (min-width: 300px) {
+  .the-little-mermaid-logo {
+    height: 120px;
+    width: 200px;
+  }
+
+  b {
+    font-size: 40pt;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .the-little-mermaid-logo {
+    height: 180px;
+    width: 325px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .the-little-mermaid-logo {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .the-little-mermaid-logo {
+    height: 400px;
+    width: 675px;
+  }
+
+  h2 {
+    font-size: 50pt;
+  }
+}
