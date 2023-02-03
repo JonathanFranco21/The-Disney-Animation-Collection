@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF59C8FDF2AB49D4341688AEAF85F6E66204BFB7293F246D6AE1754633D8782F');
+  background-image: url('https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/166DBB6CF929A3C6C9E9520ECE9879D4CF5B91A9C19F6985C9EF00088A08A8A5');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,23 +10,24 @@ b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
 }
 
-.the-little-mermaid-logo {
+.jake-logo {
   position: relative;
   height: 200px;
   width: 350px;
   box-shadow: none;
   border-radius: 0px;
+  left: 75px;
   margin: 20px 0 20px 0;
 }
 
-.mermaid {
+.jake {
   font-family: arial;
   font-size: xx-large;
-  background-color: #1F9A5B;
-  box-shadow: 0px 2px 5px #1F9A5B;
+  background-color: red;
+  box-shadow: 0px 2px 5px red;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -51,7 +52,7 @@ a:visited {
 p {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
 }
 
 .disneyplus {
@@ -64,7 +65,7 @@ p {
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px #1F9A5B;
+  box-shadow: 0px 10px 15px red;
   height: 200px;
   width: 360px;
 }
@@ -73,7 +74,7 @@ h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
   margin: 0 20px auto;
 }
 
@@ -82,14 +83,14 @@ h3 {
   font-size: 20pt;
   color: white;
   text-align: center;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
   margin: 0 20px auto;
 }
 
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
   text-align: center
 }
 
@@ -116,11 +117,11 @@ div.item {
   font-size: large;
   color: white;
   margin-top: 3%;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px red;
 }
 
 img {
-  box-shadow: 0px 2px 5px #1F9A5B;
+  box-shadow: 0px 2px 5px red;
   border-radius: 10px;
   width: 250px;
   height: 135px;
@@ -147,7 +148,7 @@ img {
   margin: 0 auto;
 }
 
-.tv-y7-rating {
+.tv-y-rating, .tv-y7-rating {
   position: relative;
   width: 100px;
   height: 100px;
@@ -157,9 +158,10 @@ img {
 }
 
 @media screen and (min-width: 300px) {
-  .tangled-logo {
+  .jake-logo {
     height: 120px;
     width: 200px;
+    left: 20px;
   }
 
   b {
@@ -180,9 +182,10 @@ img {
 }
 
 @media screen and (min-width: 500px) {
-  .tangled-logo {
+  .jake-logo {
     height: 180px;
     width: 325px;
+    left: 40px;
   }
 
   iframe {
@@ -203,9 +206,10 @@ img {
 }
 
 @media screen and (min-width: 800px) {
-  .tangled-logo {
+  .jake-logo {
     height: 300px;
     width: 500px;
+    left: 65px;
   }
 
   iframe {
@@ -221,16 +225,13 @@ img {
     width: 325px;
     height: 185px;
   }
-
-  .item.episode-13 {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 1000px) {
-  .tangled-logo {
+  .jake-logo {
     height: 400px;
     width: 675px;
+    left: 90px;
   }
 
   iframe {
@@ -262,8 +263,12 @@ img {
     height: 200px;
   }
 
-  .item.episode-13 {
-    width: 100%;
+  .item.episode-37 {
+    width: 55%;
+  }
+
+  .item.episode-38 {
+    width: 33%;
   }
 }
 
