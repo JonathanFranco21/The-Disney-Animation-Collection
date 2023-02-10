@@ -1,0 +1,179 @@
+html {
+  margin: 0;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.random_bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+b {
+  font-family: arial;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+.big-hero-6-logo {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  padding: 20px 0 20px 0;
+}
+
+.big-hero-6 {
+  font-family: arial;
+  font-size: xx-large;
+  background-color: red;
+  box-shadow: 0px 2px 5px red;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  margin: 0 20px auto;
+  margin-bottom: 32px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+}
+
+iframe {
+  border-radius: 25px;
+  box-shadow: 0px 10px 15px red;
+  height: 250px;
+  width: 450px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 25pt;
+  color: white;
+  text-shadow: 0px 2px 5px red;
+  margin: 0 20px auto;
+}
+
+h3 {
+  font-family: arial;
+  font-size: 20pt;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 2px 5px red;
+  margin: 0 20px auto;
+}
+
+.overview {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-shadow: 0px 2px 5px red;
+  text-align: center
+}
+
+.rating-areas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.original-rating-area, .proposed-rating-area {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.disneyplus {
+  width: 150px;
+  position: relative;
+  bottom: -22px
+}
+
+.pg-rating {
+  position: relative;
+  bottom: 55px;
+  right: 7px;
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
+  object-fit: cover;
+}
+
+@media screen and (min-width: 300px) {
+  .big-hero-6-logo {
+    height: 115px;
+    width: 200px;
+    left: 65px;
+  }
+
+  .pg-rating {
+    width: 250px;
+    left: 20px;
+  }
+
+  iframe {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  iframe {
+    height: 190px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .rating-areas {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  iframe {
+    height: 420px;
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .big-hero-6-logo {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    left: 170px;
+  }
+
+  iframe {
+    height: 500px;
+    width: 900px;
+  }
+}
