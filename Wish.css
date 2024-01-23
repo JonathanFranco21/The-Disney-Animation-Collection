@@ -1,38 +1,26 @@
-html {
-  margin: 0;
-}
-
 body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   margin: 0;
-}
-
-.random_bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 b {
   font-family: arial;
   font-size: 50pt;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px #FDE8D7;
 }
 
-.the-little-mermaid-logo {
+.wish-logo {
   position: relative;
-  height: 200px;
-  width: 350px;
+  height: 300px;
+  width: 500px;
+  padding-bottom: 50px;
 }
 
-.mermaid {
+.wish {
   font-family: arial;
   font-size: xx-large;
-  background-color: #1F9A5B;
-  box-shadow: 0px 2px 5px #1F9A5B;
+  background-color: #FDE8D7;
+  box-shadow: 0px 2px 5px #FDE8D7;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -57,21 +45,21 @@ a:visited {
 p {
   font-family: arial;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px #FDE8D7;
 }
 
 iframe {
   border-radius: 25px;
-  box-shadow: 0px 10px 15px #1F9A5B;
-  height: 200px;
-  width: 360px;
+  box-shadow: 0px 10px 15px #FDE8D7;
+  height: 250px;
+  width: 450px;
 }
 
 h2 {
   font-family: arial;
   font-size: 25pt;
   color: white;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px #FDE8D7;
   margin: 0 20px auto;
 }
 
@@ -80,21 +68,15 @@ h3 {
   font-size: 20pt;
   color: white;
   text-align: center;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px #FDE8D7;
   margin: 0 20px auto;
 }
 
 .overview {
   margin-left: 25%;
   margin-right: 25%;
-  text-shadow: 0px 2px 5px #1F9A5B;
+  text-shadow: 0px 2px 5px #FDE8D7;
   text-align: center
-}
-
-.the-little-mermaid-sing-along {
-  width: 150px;
-  position: relative;
-  bottom: -22px
 }
 
 .rating-areas {
@@ -103,8 +85,7 @@ h3 {
   margin: 0 auto;
 }
 
-.original-rating-area, 
-.proposed-rating-area {
+.original-rating-area, .proposed-rating-area {
   height: 150px;
   margin: 0 auto;
 }
@@ -125,16 +106,17 @@ h3 {
   position: relative;
   bottom: 55px;
   right: 7px;
-  width: 250px; 
-  height: 250px; 
-  filter: invert(1); 
+  width: 250px;
+  height: 250px;
+  filter: invert(1);
   object-fit: cover;
 }
 
 @media screen and (min-width: 300px) {
-  .the-little-mermaid-logo {
-    height: 175px;
-    width: 300px;
+  .wish-logo {
+    height: 145px;
+    width: 250px;
+    left: 50px;
   }
 
   .pg-rating {
@@ -176,10 +158,11 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
-  .the-little-mermaid-logo {
+  .wish-logo {
     position: relative;
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 350px;
+    left: 100px;
   }
 
   iframe {
@@ -189,7 +172,10 @@ h3 {
 }
 
 @media screen and (min-width: 1200px) {
-  .the-little-mermaid-logo {
+  .wish-logo {
     position: relative;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 50px;
   }
 }

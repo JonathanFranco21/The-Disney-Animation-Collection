@@ -31,9 +31,9 @@ b {
 
 .beauty-and-the-beast-logo {
   position: relative;
-  top: -50px;
   height: 200px;
   width: 350px;
+  padding: 50px 0;
 }
 
 .beauty {
@@ -128,12 +128,6 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-  .disney {
-    position: relative;
-    top: -15px;
-    width: 300px;
-  }
-
   iframe {
     height: 420px;
     width: 750px;
@@ -141,15 +135,7 @@ li {
 }
 
 @media screen and (min-width: 1000px) {
-  .disney {
-    position: relative;
-    top: -25px;
-    width: 400px;
-  }
-
   .beauty-and-the-beast-logo {
-    position: relative;
-    top: -80px;
     height: 300px;
     width: 500px;
   }
@@ -157,19 +143,5 @@ li {
   iframe {
     height: 500px;
     width: 900px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .disney {
-    position: relative;
-    top: -40px;
-    width: 500px;
-    margin: 0 auto;
-  }
-
-  .beauty-and-the-beast-logo {
-    position: relative;
-    top: -80px;
   }
 }
