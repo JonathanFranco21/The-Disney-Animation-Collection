@@ -16,7 +16,7 @@ body {
 }
 
 b {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 50pt;
   color: white;
   text-shadow: 0px 2px 5px purple;
@@ -29,7 +29,7 @@ b {
 }
 
 .aladdin {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: xx-large;
   background-color: purple;
   box-shadow: 0px 2px 5px purple;
@@ -55,7 +55,7 @@ a:visited {
 }
 
 p {
-  font-family: arial;
+  font-family: avenir-light;
   color: white;
   text-shadow: 0px 2px 5px purple;
 }
@@ -68,7 +68,7 @@ iframe {
 }
 
 h2 {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 25pt;
   color: white;
   text-shadow: 0px 2px 5px purple;
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-  font-family: arial;
+  font-family: avenir-light;
   font-size: 20pt;
   color: white;
   text-align: center;
